@@ -34,4 +34,6 @@ jobs:
         run: |
           echo Add other actions to build,
           echo test, and deploy your project,
-          node src/index.js.
+          node -v,
+          pwd,
+          node ~/src/index.js.
