@@ -1,0 +1,22 @@
+name: basic workflow
+
+on:
+  push: 
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+
+  # there will be displaying a button on the UI to trigger workflow
+  workflow_dispatch:
+
+jobs:
+  basic_flow:
+    runs-on: ubuntu-latest
+    steps:
+      # actions/checkout@v3 is defined in: https://github.com/actions/checkout, take a look at `action.yml` for source code
+      - uses: actions/checkout@v3
+      
+      - name: print message to the console
+        run: echo "Hello World"
