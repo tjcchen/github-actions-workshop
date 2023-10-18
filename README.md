@@ -18,3 +18,6 @@ Runner - each job will be run on a virtual machine. Runner could be host by gith
 
 ## resources
 docs: https://docs.github.com/en/actions
+
+## license
+MIT
