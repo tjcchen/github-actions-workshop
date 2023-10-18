@@ -6,7 +6,7 @@ Event - trigger workflows: push, pull_request, create, delete etc.
 
 Job - a job contains multiple steps.
 
-Steps - steps to run a job, like: `uses: actions/checkout@v3, uses: actions/setup-node@v3`
+Steps - steps to run a job, like: `uses: actions/checkout@v3, uses: actions/setup-python@v3, uses: actions/setup-node@v3`
 
 Actions/commands - a series of linux tasks and commands
 
