@@ -12,6 +12,7 @@ on:
   workflow_dispatch:
 
 jobs:
+  # job 1
   basic_flow:
     runs-on: ubuntu-latest
     steps:
@@ -20,3 +21,12 @@ jobs:
       
       - name: print message to the console
         run: echo "Hello World"
+        shell: bash
+
+  # job 2
+  completed:
+    runs-on: ubuntu-latest
+    steps:
+      - name: task completed
+        run: echo "The mission has been completed"
+        shell: bash
