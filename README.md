@@ -14,7 +14,7 @@ Commands - a series of shell commands.
 
 Runner - each job will be run on a virtual machine. Runner could be host by github, like ubuntu-latest, window and macOS, or self-hosted.
 
-**NB: It is worth noting that each action/command of a job runs sequentially, but each job can be performed in parallel in different machines.**
+**NB: It is worth noting that each action/command of a job runs sequentially, but each job can be performed in parallel on different machines.**
 
 ## resources
 docs: https://docs.github.com/en/actions
